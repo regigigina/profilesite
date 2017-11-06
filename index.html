@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+
+    *{
+        border-radius: 0px !important;    
+    }
+
+    .indentbit{
+        margin-left: 15px;        
+        margin-right: 15px;
+    }
+
+    .card-img{
+        height: 300px;
+    }
+
+    .imgprofile{
+        height: 150px;
+        width: 150px;
+        border: 10px white;
+    }
+
+    .textprofile{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .fleft{
+        float: left;
+    }
+
+    .fright{
+        float: right;
+    }
+
+    .nav-link{
+        color: black !important;
+    }
+
+    .padcontent{
+        background-color: beige;
+        padding-top: 3%;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-bottom: 3%;
+    }
+
+    .progressmargin{
+        margin-bottom: 20px;
+    }
+
+    .eduyears{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        float: left;
+    }
+
+    .eduyears li{
+        border-left: 5px solid black;    
+        margin-bottom: 50px;        
+    }
+    .eduyears li a{
+        text-decoration: none;
+        padding-left: 15px;
+        color: black;
+    }
+
+    .edutext{        
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        float: left;
+    }
+
+    .edutext li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .btn-primary{
+        background-color: black;
+        border: white;
+    }
+
+    hr{
+        border: 5px;
+        border-color: black;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="indentbit">
+        <div class="card bg-dark text-white">
+            <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPHO-Yir0cfv57C-SfoBB9uzmdCZhygXgvkdDKbdaiScxkBCWmQ" alt="Card image">
+
+            <div class="card-img-overlay">
+                <div class=" d-flex justify-content-center">
+                <img class="imgprofile" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALaAAAAJGYwNzAxM2I5LWE1NmMtNGI1Mi04MGIzLTU0ZWE3ZmYwMGQ1Yg.jpg">
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <ul class="textprofile">
+                        <li><h1>Regina Wong</h1></li>
+                        <li><h3>Job Title</h3></li>
+                        <li><p>Short description.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="col-xs-12">
+        <div class="col-xs-4 col-md-2 fleft">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#tab-1" role="tab" aria-controls="v-pills-1" aria-selected="true">About Me</a>
+                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#tab-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Experience</a>
+                <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#tab-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Education</a>
+                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#tab-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Soft Skills</a>                
+                <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#tab-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Send a message!</a>
+            </div>
+        </div>
+        <div class="col-xs-8 col-md-10 fright">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active padcontent" id="tab-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                    <h1>About Me</h1> <br>  
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel feugiat felis. Vestibulum efficitur semper euismod. Aenean vehicula tortor ut egestas consectetur. Nunc eget urna leo. Vivamus venenatis sollicitudin facilisis. Sed sed ornare dolor. Cras et pharetra turpis. Aliquam mollis nulla id sapien dictum, non dapibus sapien bibendum. Quisque porta leo nec leo aliquet porttitor. <br><br>
+                    
+                    Vestibulum tincidunt pharetra justo a condimentum. Maecenas viverra tincidunt ante iaculis elementum. Maecenas in eleifend orci, ullamcorper malesuada mi. Nullam sed venenatis ipsum. Suspendisse sed maximus lectus. Nulla felis leo, hendrerit id venenatis quis, ornare eget ligula. Etiam congue mauris id velit maximus tempor. <br><br>
+                    
+                    Praesent rhoncus aliquet mauris, ut lacinia diam fermentum eu. Vestibulum commodo vitae augue sed vestibulum. Integer vel enim ut mi cursus vestibulum. Suspendisse egestas aliquam felis sed sollicitudin. Nullam at odio molestie, convallis tortor nec, molestie nunc. Curabitur eleifend lorem sit amet ante venenatis venenatis. Fusce dui dui, consequat eu mauris interdum, bibendum ullamcorper purus. Pellentesque tincidunt ligula sed tellus tempor, congue rhoncus turpis fringilla. Fusce vulputate faucibus placerat. Curabitur venenatis euismod tellus, at sodales enim feugiat eget. <br><br>
+                    
+                    Aliquam in libero mauris. Nulla ullamcorper, nisi sit amet elementum imperdiet, augue justo accumsan felis, at lacinia mi quam vel turpis. Aliquam at viverra nisl. Proin maximus ipsum ut feugiat lacinia. Aenean accumsan elit molestie, bibendum ipsum non, auctor mauris. Pellentesque dictum diam tortor, ac ullamcorper sem vehicula a. Suspendisse malesuada, arcu sed laoreet vestibulum, tellus risus egestas eros, in pharetra risus ex vel justo. Aliquam suscipit eleifend consequat. Curabitur accumsan rutrum turpis, sed posuere diam auctor a. <br><br>
+                    
+                    Cras lobortis, turpis ut tempor tincidunt, erat tortor faucibus odio, in consectetur ipsum nibh id ex. In iaculis ligula vitae sem placerat luctus id sit amet diam. Fusce ac ligula quam. Maecenas nec tempor est, fermentum dictum ligula. Etiam sed accumsan erat, in mollis ligula. Ut vitae orci ut diam faucibus varius. Mauris tincidunt ut nunc eu euismod. Maecenas lobortis tempus lacinia. Aenean in enim pellentesque, imperdiet sapien quis, ullamcorper nisl. Sed quis molestie quam. Mauris eget congue massa.
+                </div>
+
+                <div class="tab-pane fade padcontent" id="tab-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                    <h4>Retail Operations Manager</h4>
+                    <h5>2016-Present</h5>
+                    <p>Independent Pharmacies</p>
+                    <hr><br>
+                    <h4>Marine Structure Engineer</h4>
+                    <h5>2014-2016</h5>
+                    <p>HACTH Indonesia</p>
+                    <hr><br>
+                    <h4>Intern</h4>
+                    <h5>2012</h5>
+                    <p>Ciputra - Citra Garden City Development</p>
+                    <hr><br>
+                </div>
+
+                <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                    <div class="padcontent row">
+                        <div class="col-md-12">
+                            <ul class="eduyears col-md-3">
+                                <li><a href="#">2017-2018</a><br>&nbsp</li>
+                            </ul>   
+                            <ul class="edutext col-md-9">
+                                <li><a href="#"><b>Purwadhika Startup School</b></a></li>
+                                <li><a href="#">Job Connector - Web Development</a></li>
+                            </ul>  
+                        </div> 
+                        <div class="col-md-12">
+                        <ul class="eduyears col-md-3">
+                            <li><a href="#">2010-2014</a><br>&nbsp</li>
+                        </ul>   
+                        <ul class="edutext col-md-9">
+                            <li><a href="#"><b>University of Southampton</b></a></li>
+                            <li><a href="#">BSc. Civil Engineering</a></li>
+                        </ul>  
+                        </div> 
+                        <div class="col-md-12">
+                        <ul class="eduyears col-md-3">
+                            <li><a href="#">2013</a><br>&nbsp</li>  
+                        </ul>   
+                        <ul class="edutext col-md-9">
+                            <li><a href="#"><b>CUHK</b></a></li>
+                            <li><a href="#">Mandarin Summer School Programme</a></li>
+                        </ul>  
+                        </div> 
+                        <div class="col-md-12">
+                        <ul class="eduyears col-md-3">
+                            <li><a href="#">2013</a><br>&nbsp</li>  
+                        </ul>   
+                        <ul class="edutext col-md-9">
+                            <li><a href="#"><b>KAIST</b></a></li>
+                            <li><a href="#">Entrepreneurship Summer School Programme</a></li>
+                        </ul>  
+                        </div> 
+                    </div>                    
+                </div>
+
+                <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                    <div class="padcontent">
+                        <h4>Languages</h4>                        
+                        <p>Bahasa Indonesia</p>
+                        <div class="progress progressmargin">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
+                        </div>                        
+                        <p>English</p>
+                        <div class="progress progressmargin">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%"></div>
+                        </div>
+
+                        <h4>Coding</h4>
+                        <p>Javascript</p>
+                        <div class="progress progressmargin">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 30%"></div>
+                        </div>
+                        <p>HTML</p>
+                        <div class="progress progressmargin">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%"></div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress progressmargin">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 10%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                    <form class="col-md-offset-3 padcontent">                        
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>        
+                        <div class="form-group">
+                            <label>Send message by:</label>
+                            <select class="form-control">
+                            <option>AppMsg</option>
+                            <option>E-mail</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail address:</label>
+                            <input type="email" class="form-control" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Message:</label>
+                            <textarea class="form-control" rows="3" placeholder="Your message here"></textarea>
+                            <button class="btn btn-primary btn-block">Send!</button>
+                        </div>
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+</html>
